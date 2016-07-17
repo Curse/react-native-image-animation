@@ -4,11 +4,14 @@
 */
 'use strict';
 
-var React = require('react-native');
-var {
-    Image,
-    PropTypes,
-} = React;
+import React, {
+  Component,
+  PropTypes,
+} from 'react';
+
+import {
+    Image
+} from "react-native";
 
 var TimerMixin = require('react-timer-mixin');
 
